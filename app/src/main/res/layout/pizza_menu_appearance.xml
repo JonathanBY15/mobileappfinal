@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/menuNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="0sp"
+        android:text="Menu Name"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/menuPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="0sp"
+        android:layout_marginRight="0sp"
+        android:layout_toEndOf="@+id/menuNameTextView"
+        android:layout_toRightOf="@+id/menuNameTextView"
+        android:text="Menu Price"
+        android:textSize="30sp" />
+</RelativeLayout>
